@@ -39,14 +39,47 @@
 
     <section>
       <h3>Inhalt löschen</h3>
-      <div class="content">  
-    <h3>Der Inhalt des Buttons wird auf Knopfdruck gelöscht.</h3>
-    <div class="content">
-      <p id="to-delete"></p>
-    </div>
-    <div class="center">
-      <button onclick="deleteText()">to-delete</button>
-    </div>
+      <div class="content">
+        Mann kann den Inhalt des Kästchens löschen.
+      </div>
+      <div class="center">
+          <p id="to-delete">Hier steht Text der später gelöscht werden soll.</p>
+          <button onclick="deleteText()">Text löschen</button>
+      </div>
+    </section>
+
+    <section>
+      <h3>Zahlen udn Text plus rechenen</h3>
+      <div class="content">
+        Mann kann Zahlen und Wörter plusrechenen.
+      </div>
+      <div class="center">
+        <p id="counter">0</p>
+        <button onclick="incrementCounter()">+1</button>
+      </div>
+      <div class="center">
+        <p id="counter"></p>
+        <button onclick="incrementCounter()">-1</button>
+      </div>
+    </section>
+       
+    <section>
+      <h3>Zahlen udn Text minus rechenen</h3>
+      <div class="content">
+        Mann kann Zahlen und Wörter minusrechenen.
+      </div>
+      <div class="center">
+        <p id="counter">0</p>
+        <button onclick="decrementCounter()">-1</button>
+      </div>
+      <div class="center">
+        <p id="counter"></p>
+        <button onclick="decrementCounter()">+1</button>
+      </div>
+    </section>
+  
+    
+  
   
 
 
@@ -62,6 +95,11 @@
 
 
 
+
+
+
+
+  <script type="module" src="tests/run.js"></script>
 
 </body>
 

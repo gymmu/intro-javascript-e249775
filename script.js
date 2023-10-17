@@ -42,9 +42,20 @@ function decrementCounter() {
 }
 
 function resetCounter() {
-  
 }
 
-function writeText() {
-  
+function writeText(){
+}
+
+
+function writeText (){
+const InputElem = document.querySelector ("#input")
+const OutputElem = document.querySelector ("#output")
+
+const InputValue = InputElem.value
+const OutputValue = OutputElem.textContent
+
+const newValue = OutputValue +"\n"+ inputValue
+
+OutputElem.textContent = newValue
 }
